@@ -1,0 +1,123 @@
+/* Reset & Font */
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #f9fafb;
+    color: #111827;
+  }
+  
+  h1, h2, h3 {
+    margin: 0 0 10px;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: linear-gradient(135deg, #1e3a8a, #3b82f6);
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+  
+  /* Mission */
+  .mission {
+    background-color: #ffffff;
+    margin: 2rem auto;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+  }
+  
+  .mission h2 {
+    color: #1e40af;
+    font-weight: 600;
+  }
+  
+  /* Affiliations */
+  .affiliations {
+    background-color: #ffffff;
+    margin: 2rem auto;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+  }
+  
+  .affiliations .subtitle {
+    color: #6b7280;
+    margin-bottom: 20px;
+    font-style: italic;
+  }
+  
+  .logos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 20px;
+    align-items: center;
+    justify-items: center;
+  }
+  
+  .logos img {
+    max-width: 100px;
+    height: auto;
+    object-fit: contain;
+    filter: drop-shadow(0 0 2px rgba(0, 0, 0, 0.1));
+    transition: transform 0.2s;
+  }
+  
+  .logos img:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Social */
+  .social {
+    background-color: #ffffff;
+    margin: 2rem auto;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+    text-align: center;
+  }
+  
+  .stats {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 20px;
+  }
+  
+  .stat h3 {
+    font-size: 1.8rem;
+    color: #1d4ed8;
+  }
+  
+  .stat p {
+    font-size: 1rem;
+    color: #6b7280;
+  }
+  
+  /* Footer */
+  footer {
+    background: #1e293b;
+    color: #f9fafb;
+    text-align: center;
+    padding: 1.5rem;
+    margin-top: 40px;
+    font-size: 0.9rem;
+  }
+  
